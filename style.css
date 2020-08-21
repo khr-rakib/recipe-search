@@ -1,0 +1,9 @@
+.logo{
+    color: white;
+}
+.input-group-text{
+    background-color: #1f2427;
+}
+.input-group-text:hover{
+    background-color: #060707 ;
+}
