@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recipe Search</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -15,11 +14,12 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <title>Recipe Search</title>
   </head>
 
   <body>
     <!-- Jumborton (Munna) -->
-    <div style="background-color: #ff3f34;" class="jumbotron jumbotron-fluid">
+    <div style="background-color: #ff3f34;" class="jumbotron">
       <div class="container text-center">
         <h1 class="display-4 logo">
           <i class="fa fa-cutlery" aria-hidden="true"></i> Food Recipe
@@ -30,15 +30,85 @@
             type="text"
             class="form-control"
             placeholder="Search Your Recipes"
-            aria-label="Recipient's username"
-            aria-describedby="basic-addon2"
+            id="searchInput"
           />
-          <button class="input-group-text logo" id="basic-addon2">
+          <!-- <button class="input-group-text logo" id="basic-addon2">
             Search Recipes
-          </button>
+          </button> -->
         </div>
       </div>
     </div>
+
+    <div class="container">
+      <div class="row" id="recipesContainer"></div>
+    </div>
+
+    <!-- Card (Morshed) -->
+
+    <!-- Footer-(Rayhan) -->
+    <footer>
+      <div class="container">
+        <div class="row p-5">
+          <div class="col col-sm-12 col-md-6 col-lg-3">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+              ipsam saepe reprehenderit esse fuga fugit iure suscipit debitis ad
+              corporis sapiente, explicabo quis quibusdam nihil provident quam
+              voluptate reiciendis perferendis molestias.
+            </p>
+          </div>
+          <div class="col-md-auto col-md-3 col-lg-5 list-style">
+            <ul>
+              <li><a href=" #">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Catagories</a></li>
+            </ul>
+          </div>
+          <div class="col col-md-3 col-lg-4">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  placeholder="enter your email"
+                  aria-describedby="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="form-group form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label text-white" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <p class="mb-0 py-4">
+            &copy; fiveBrothersProject.com | copyright 2020
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <!-- Card (Morshed) -->
 

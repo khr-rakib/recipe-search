@@ -1,10 +1,42 @@
-.logo{
-    color: white;
-    margin-bottom: 25px;
+.img-position {
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 150px;
 }
-.input-group-text{
-    background-color: #1f2427;
+
+.logo {
+  color: white;
+  margin-bottom: 25px;
 }
-.input-group-text:hover{
-    background-color: #060707 ;
+.input-group-text {
+  background-color: #1f2427;
+}
+.input-group-text:hover {
+  background-color: #060707;
+}
+
+/* footer(rayhan) */
+footer {
+  background-color: #282531;
+}
+footer p {
+  color: white;
+  font-size: 20px;
+}
+.list-style li {
+  list-style: none;
+  text-align: left;
+  font-size: 14px;
+}
+.list-style li a {
+  color: #e3e3e4c2;
+  text-decoration: none;
+  font-size: 25px;
+}
+.list-style li a:hover {
+  color: white;
+}
+.copyright p {
+  color: #e3e3e488;
+  text-align: center;
 }
